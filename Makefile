@@ -1,5 +1,5 @@
 go:
 	go fmt
-	go test
+	go test -cover
 
 .PHONY: go
