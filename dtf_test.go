@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func TestDurationf(t *testing.T) {
+func TestFmt(t *testing.T) {
 	var tab = []struct {
 		d time.Duration
 		s string
